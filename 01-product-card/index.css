@@ -1,0 +1,147 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+  	padding: 0;
+  	font-family: 'Arial';
+	font-style: normal;
+}
+
+body{
+	background: #F6F6F6;
+}
+
+.products {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+h1 {
+	font-weight: 900;
+	font-size: 48px;
+	line-height: 72px;
+	text-align: center;
+	color: #000000;
+	text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.products__cards {
+	background: #F6F6F6;
+}
+
+.products__cards__card {
+	width: 380px;
+	height: 482px;
+	box-shadow: 0px 0px 45px -4px rgba(0, 0, 0, 0.18);
+	border-radius: 12px;
+}
+
+img {
+	position: relative;
+	height: 213.75px;
+	width: 100%;
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+}
+
+.products__cards__card__heading {
+	position: relative;
+	font-weight: 900;
+	font-size: 24px;
+	line-height: 36px;
+	color: #2F2F2F;
+	margin: 24px 24px 16px;
+}
+
+.products__cards__card__description {
+	position: relative;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #2F2F2F;
+	margin-left: 24px;
+	margin-right: 24px;
+}
+
+.products__cards__card__tags {
+	position: absolute;
+	height: 25px;
+	top: 16.33px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	align-items: center;
+	text-align: center;
+	text-transform: uppercase;
+	color: #2F2F2F;
+	border-radius: 8px;
+}
+
+#last-tag {
+	width: 136px;
+	left: 143px;
+	background: #FFCF56;
+}
+
+#new-tag {
+	width: 111px;
+	left: 16px;
+	background: #FDCFF3;
+}
+
+.products__cards__card__button {
+	font-weight: 900;
+	font-size: 18px;
+	line-height: 25px;
+	text-transform: uppercase;
+	align-items: center;
+	text-align: center;
+	color: #42940F;
+}
+
+button {
+	position: absolute;
+	height: 48px;
+	left: 24px;
+	right: 24px;
+	bottom: 24.25px;
+	border: 2px solid #42940F;
+	border-radius: 8px;
+}
+
+button:hover {
+	background-color: #42940F;
+	color: #FFFFFF;
+}
+
+button:active {
+	background-color: #1F5200;
+	border: 2px solid #1F5200;
+	color: #FFFFFF;
+
+}
+
+button:disabled,
+button[disabled] {
+	background-color: #4E4E4E;
+	border: 1px solid #4E4E4E;
+	color: #FFFFFF;
+}
+
+@media (min-width:  1017px) {
+	.desktop {
+		position: relative;
+		float: left;
+		margin-left: 20px;
+		margin-bottom: 20px;
+	}
+}
+
+@media (max-width:  1016px) {
+	.mobile {
+		position: relative;
+		margin: auto;
+		margin-bottom: 20px;
+	}	
+}
